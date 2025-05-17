@@ -1,0 +1,12 @@
+train: data/asl_dataset/train/images
+val: data/asl_dataset/valid/images
+
+nc: 4
+names: ['Yes', 'iloveyou', 'no', 'thanks']
+
+roboflow:
+  workspace: asl-project-dbgyx
+  project: asl-sign-detection-qqvwu
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/asl-project-dbgyx/asl-sign-detection-qqvwu/dataset/2
