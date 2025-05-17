@@ -2,7 +2,7 @@ train: data/asl_dataset/train/images
 val: data/asl_dataset/valid/images
 
 nc: 4
-names: ['Yes', 'iloveyou', 'no', 'thanks']
+names: ['yes', 'iloveyou', 'no', 'thanks']
 
 roboflow:
   workspace: asl-project-dbgyx
